@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="signin.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="https://httpbin.org/anything" method="post">
+            <h1>Registrera dig nu!</h1>
+            <div class="input">
+                <p>Förnamn</p>
+                <input type="text" />
+            </div>
+            <div class="input">
+                <p>Efternamn</p>
+                <input type="text" />
+            </div>
+            <div class="input">
+                <p>Mejladress</p>
+                <input type="email" />
+            </div>
+            <div class="input">
+                <p>Mobilnummer</p>
+                <input type="tel" />
+            </div>
+            <div class="input">
+                <p>Lösenord</p>
+                <input type="password" />
+            </div>
+            <label for="agreement">
+                <input class="input-agreement" id="agreement" type="checkbox" />
+                Jag accepterar
+                <a href="google.com" class="input-link">
+                    villkoren för Liberoklubben
+                </a>
+            </label>
+
+            <button>Registrera</button>
+        </form>
+    </body>
+</html>
